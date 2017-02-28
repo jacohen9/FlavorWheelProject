@@ -24,9 +24,6 @@ public class FlavorWheelParser {
         fillFlavor(null, allItems);
 
         List<Flavor> flavors = Flavor.allFlavors;
-
-        int aaa = 0;
-
     }
 
     private void fillFlavor(Flavor currFlavor, JSONArray flavorChildren)
