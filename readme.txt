@@ -9,3 +9,8 @@ The class 'Flavor' handles the representation of individual flavors and the meth
 Note that this is not packaged as a Java package. It should be possible to take the two primary classes and turn them into a package.
 
 Unit tests are in 'FlavorTest.java'
+
+Limitations:
+Does not handle a 'not' qualifier (e.g. 'not sweet')
+Does not handle misspellings (e.g. 'blackbery')
+Does not handle plurization (e.g. 'blackberries')
